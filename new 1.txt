@@ -1,0 +1,13 @@
+SHA1 sifras.
+Blob - tai pats failas .git/objects repositoryjoje
+
+echo "Apple pie" | git hash-object --stdin -w
+git cat-file 26a5561 -t (type)
+git cat-file 26a5561 -p (print)
+
+git status 
+
+git diff working area <> index
+git diff --cached index <> repository
+
+git rm - deletina viska su -f su --cached tik is index
